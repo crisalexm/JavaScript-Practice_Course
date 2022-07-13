@@ -28,7 +28,7 @@ console.groupEnd();
 
 console.group("Circulos")
 // Diametro
-function diametroCirculo(radio  ) {
+function diametroCirculo(radio) {
     return radio * 2
 };
 
@@ -92,3 +92,8 @@ function calcularAreaTriangulo(){
     const area = areaTriangulo(base, altura);
     alert(area);
 };
+function calcularDiametroCirculo(){
+    const radio = parseInt(document.getElementById("radio").value);
+    const diametro = diametroCirculo(radio);
+    alert(diametro);
+}
