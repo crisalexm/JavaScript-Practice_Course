@@ -22,7 +22,7 @@
                 <form action="form">
                     <div class="row">
                             <div class="col-12 text-center mb-2">
-                                <label for="inputCuadrado">¿Cuál es la medidade tu cuadrado?</label><br />
+                                <label for="inputCuadrado" class="mb-2">¿Cuál es la medidade tu cuadrado?</label><br />
                                 <input class="col-12"id="inputCuadrado" type="number"> <br />
                             </div>
                     </div>
@@ -45,18 +45,31 @@
                 <form action="form">
                     <div class="row">
                             <div class="col-12  text-center mb-2">
-                                <label for="inputCuadrado">¿Cuál es la medidade tu Triángulo?</label><br />
-                                <input class="col-12"id="inputCuadrado" type="number"> <br />
+                                <div class="row">
+                                    <label for="inputTriangulo" class="mb-2">¿Cuál es la medida de tu Triángulo?</label><br />
+                                    <div class="col-3">
+                                        <input class="col-12"id="lado1" type="number" placeholder="Lado A"> <br />
+                                    </div>
+                                    <div class="col-3">
+                                        <input class="col-12"id="lado2" type="number" placeholder="Lado B"> <br />
+                                    </div>
+                                    <div class="col-3">
+                                        <input class="col-12"id="base" type="number" placeholder="Base"> <br />
+                                    </div>
+                                    <div class="col-3">
+                                        <input class="col-12"id="altura" type="number" placeholder="Altura"> <br />
+                                    </div>
+                                </div>
                             </div>
                     </div>
                     <div class="row">
                         <div class="d-grid mb-2">
-                            <button class="btn btn-primary" type="button" onclick="calcularPerimetroCuadrado()">
+                            <button class="btn btn-primary" type="button" onclick="calcularPerimetroTriangulo()">
                                     Calcular el perímetro
                             </button>
                         </div>
                         <div class="d-grid">
-                            <button class="btn btn-primary"type="button" onclick="calcularAreaCuadrado()">
+                            <button class="btn btn-primary" type="button" onclick="calcularAreaTriangulo()">
                                         Calcular el área
                             </button>
                         </div>  
@@ -67,8 +80,12 @@
                 <form action="form">
                     <div class="row">
                             <div class="col-12 text-center mb-2">
-                                <label for="inputCuadrado">¿Cuál es la medidade tu circulo?</label><br />
-                                <input class="col-12"id="inputCuadrado" type="number"> <br />
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label for="inputCirculo" class="mb-2">¿Cuál es el radio tu circulo?</label><br />
+                                        <input class="col-12"id="inputCirculo" type="number"> <br />
+                                    </div>
+                                </div>
                             </div>
                     </div>
                     <div class="row">
@@ -78,7 +95,7 @@
                             </button>
                         </div>
                         <div class="d-grid">
-                            <button class="btn btn-primary"type="button" onclick="calcularAreaCuadrado()">
+                            <button class="btn btn-primary"type="button" onclick="calcularAreaCirculo()">
                                         Calcular el área
                             </button>
                         </div>  
