@@ -17,7 +17,8 @@
     
     <div class="container">
         <div class="row">
-            <div class="col-4">
+            <div class="col-lg-4 col-md-6 col-sm-12 d-block">
+                <!-- CUADRADO -->
                 <form action="form">
                     <div class="row">
                             <div class="col-12 text-center mb-2">
@@ -36,18 +37,58 @@
                                         Calcular el área
                             </button>
                         </div>  
+                    </div>       
+                </form>
+            </div>
+            <!-- CUADRADO /-->
+            <div class="col-lg-4 col-md-6 col-sm-12 d-block">
+                <form action="form">
+                    <div class="row">
+                            <div class="col-12  text-center mb-2">
+                                <label for="inputCuadrado">¿Cuál es la medidade tu Triángulo?</label><br />
+                                <input class="col-12"id="inputCuadrado" type="number"> <br />
+                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="d-grid mb-2">
+                            <button class="btn btn-primary" type="button" onclick="calcularPerimetroCuadrado()">
+                                    Calcular el perímetro
+                            </button>
+                        </div>
+                        <div class="d-grid">
+                            <button class="btn btn-primary"type="button" onclick="calcularAreaCuadrado()">
+                                        Calcular el área
+                            </button>
+                        </div>  
+                    </div>                      
+                </form>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 d-block">
+                <form action="form">
+                    <div class="row">
+                            <div class="col-12 text-center mb-2">
+                                <label for="inputCuadrado">¿Cuál es la medidade tu circulo?</label><br />
+                                <input class="col-12"id="inputCuadrado" type="number"> <br />
+                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="d-grid mb-2">
+                            <button class="btn btn-primary" type="button" onclick="calcularPerimetroCuadrado()">
+                                    Calcular el perímetro!
+                            </button>
+                        </div>
+                        <div class="d-grid">
+                            <button class="btn btn-primary"type="button" onclick="calcularAreaCuadrado()">
+                                        Calcular el área
+                            </button>
+                        </div>  
                     </div>
                     
                         
                         
                 </form>
             </div>
-            <div class="col-4">
-                <form action="form">
-                    <label for="number">Ingresa la medida de un lado de tu cuadrado:</label><br />
-                    <input type="number">
-                </form>
-            </div>
+            
         </div>    
     </div>
  
