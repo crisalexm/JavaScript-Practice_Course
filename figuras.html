@@ -17,7 +17,7 @@
     
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12 d-block">
+            <div class="col-lg-3 col-md-6 col-sm-12 d-block">
                 <!-- CUADRADO -->
                 <form action="form">
                     <div class="row">
@@ -41,7 +41,8 @@
                 </form>
             </div>
             <!-- CUADRADO /-->
-            <div class="col-lg-4 col-md-6 col-sm-12 d-block">
+            <!-- TRIANGULO  -->
+            <div class="col-lg-3 col-md-6 col-sm-12 d-block">
                 <form action="form">
                     <div class="row">
                             <div class="col-12  text-center mb-2">
@@ -76,7 +77,37 @@
                     </div>                      
                 </form>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 d-block">
+            <!-- TRIANGULO // -->
+            <!-- TRIANGULO ISOSCELES -->
+            <div class="col-lg-3 col-md-6 col-sm-12 d-block">
+                <form action="form">
+                    <div class="row">
+                            <div class="col-12  text-center mb-2">
+                                <div class="row">
+                                    <label for="inputTriangulo" class="mb-2">¿Cuál es la medida del Triángulo Isósceles?</label><br />
+                                    <div class="col-4">
+                                        <input class="col-12" id="ladoA" type="number" placeholder="Lado A"> <br />
+                                    </div>
+                                    <div class="col-4">
+                                        <input class="col-12" id="ladoB" type="number" placeholder="Lado B"> <br />
+                                    </div>
+                                    <div class="col-4">
+                                        <input class="col-12" id="base1" type="number" placeholder="Base"> <br />
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="d-grid mb-2">
+                            <button class="btn btn-primary" type="button" onclick="calcularAlturaTriangulo()">
+                                    Calcula la altura del triángulo Isósceles
+                            </button>
+                        </div>  
+                    </div>                      
+                </form>
+            </div>
+            <!-- TRIANGULO ISOSCELES // -->
+            <div class="col-lg-3 col-md-6 col-sm-12 d-block">
                 <form action="form">
                     <div class="row">
                             <div class="col-12 text-center mb-2">
@@ -90,15 +121,20 @@
                     </div>
                     <div class="row">
                         <div class="d-grid mb-2">
-                            <button class="btn btn-primary" type="button" onclick="calcularPerimetroCuadrado()">
-                                    Calcular el perímetro!
+                            <button class="btn btn-primary" type="button" onclick="calcularDiametroCirculo()">
+                                    Calcular el diámetro
                             </button>
                         </div>
-                        <div class="d-grid">
+                        <div class="d-grid mb-2">
+                            <button class="btn btn-primary"type="button" onclick="calcularPerimetroCirculo()">
+                                        Calcular el perímetro
+                            </button>
+                        </div> 
+                        <div class="d-grid mb-2">
                             <button class="btn btn-primary"type="button" onclick="calcularAreaCirculo()">
                                         Calcular el área
                             </button>
-                        </div>  
+                        </div> 
                     </div>      
                 </form>
             </div>
