@@ -13,3 +13,17 @@
 -Segundo paso: Implementar las fórmulas en JavaScript
 -Tercer paso: Crear Funciones
 -Cuarto paso: Integrar JavaScript en HTML5
+
+##Taller #2: Porcentajes y Descuentos
+
+-Primer paso: Definir las fórmulas
+-Segundo paso: Implementar las fórmulas en JavaScript
+-Tercer paso: Crear Funciones
+-Cuarto paso: Integrar JavaScript en HTML5
+
+##Taller #3: Promedio, mediana y moda
+
+-Primer paso: Definir las fórmulas
+-Segundo paso: Implementar las fórmulas en JavaScript
+-Tercer paso: Crear Funciones
+-Cuarto paso: Integrar JavaScript en HTML5

@@ -112,7 +112,10 @@ function calcularAreaCirculo(){
 // TRIANGULO ISOSCELES - ALTURA
 /* Math.sqr((lado1**2)- ((base**2)/4)) */
 function alturaTriangulo(lado1, lado2, base){
-    if (lado1 == lado2){
+    if(lado1!=lado2){
+        console.error("LEl triangulo no es Isósceles!!!")
+    }
+    else if (lado1 == lado2){
         return Math.sqrt((lado1**2) - ((base**2)/4)) 
     } 
 };
@@ -122,5 +125,4 @@ function calcularAlturaTriangulo(){
     const base = parseInt(document.getElementById("base1").value);
     const altura = alturaTriangulo(lado1, lado2, base);
     alert(altura);
-    
 }
